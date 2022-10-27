@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: cyan;
+      }
+      form {
+        background-color: wheat;
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 5px
+        ;
+      }
+      input {
+        background-color: maroon;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>this is form</legend>
+        <select name="city">
+          <option selected>select your city</option>
+          <option value="mumbai">mumbai</option>
+          <option value="pune">pune</option>
+          <option value="delhi">delhi</option>
+          <option value="kolkata">kolkata</option></select
+        ><br /><br />
+        <label for="age">age</label>
+        <input type="number" max="50" min="20" name="age" />
+        <input type="submit" /><br /><br />
+        <label for="file">upload your data</label>
+        <input type="file" name="file" /><br /><br />
+        <label for="data">date of birth</label>
+        <input type="date" name="date" /><br /><br /><br />
+        <label for="comment">comment</label><br />
+        <textarea rows="4" cols="5" name="comment"> comment here</textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

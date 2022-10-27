@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            display: grid;
+            grid-template-columns:1fr 5fr ;
+            grid-template-rows: 1fr 1fr 5fr 1fr;
+            height: 100vh;
+        }
+        .home{
+            background-color: aqua;
+            grid-row:1/3 ;
+            grid-column:1/4 ;
+            padding: 10px;
+        }
+        .main{
+            background-color: blue;
+            grid-row:3/4 ;
+            grid-column:2/3 ;
+        }
+        .nav{
+            background-color: blueviolet;
+            grid-row:2/3 ;
+            grid-column:2/3 ;
+        }
+        .side{
+            background-color: wheat;
+            grid-row:2/4 ;
+            grid-column:1/2 ;
+        }
+        .footer{
+            background-color: lawngreen;
+            grid-row:4/5 ;
+            grid-column:1/4 ;
+        }
+        .home li{display: inline;
+            background-color: black;
+            color: blue;
+            padding: 5px;
+            border-radius: 10px;
+            margin: 100px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <div class="home">
+        <ol>
+            <li>name</li>
+            <li>signature</li>
+            <li>contact no</li>
+        </ol>
+    </div>
+    <div class="main">main</div>
+    <div class="nav">nav</div>
+    <div class="side">side</div>
+    <div class="footer">footer</div>
+    </div>
+</body>
+</html>

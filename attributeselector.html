@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* img{
+            border: 5px dotted brown;
+            
+        }
+        img[title]{
+            border: 5px double magenta;
+            border-radius: 50px;
+        }
+        img[title="me"]{
+            border:15px double green;
+        } */
+        /* img[alt ^="that"]{
+            border: 5px solid black;
+        }
+        img[title$="name"]{
+            border: 15px double red;
+        } */
+        /* img[alt |='women']{
+            border: 10px solid green;
+        } */
+        /* img[alt *="c"]{
+            border: 40px double maroon;
+        } */
+        img[alt ~='name']{
+            border: 20px double green;
+        }
+    </style>
+</head>
+<body>
+    <img src="/Image2.jpeg" alt="women-is my image" width="100px" title="me">
+    <img src="/Image3.jpeg" alt="1that is cat name" title="my name" width="100px">
+</body>
+</html>

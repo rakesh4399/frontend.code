@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* input[type="text"]::placeholder{
+            background-color: cyan;
+            color: red; */
+       
+    /* input[type="text"]{
+            background-color: red;
+            color: blue;}
+        
+        h1::selection{
+            background-color: yellow;
+            color: brown;
+        } */
+        input[type="text"]:hover{
+            border: 5px double dodgerblue;
+            
+        }
+        input[type="password"]:focus{
+            border: 5px solid brown;
+            outline: none;
+        }
+        h1:before{
+            content:'😎';
+            display: block;
+            
+        }
+        h1:after{
+            content:'after block';
+            display: block;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        selection
+    </h1>
+    <form>
+        username:<input type="text" placeholder="enter  your name">
+        password:<input type="password">
+
+    </form>
+</body>
+</html>

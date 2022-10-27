@@ -1,0 +1,167 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        outline: none;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        color: #222;
+        font-weight: 19px;
+        font-family: "roboto", sans-serif;
+        background: #ddd;
+      }
+      #login-box {
+        position: relative;
+        margin: 5% auto;
+        width: 600px;
+        height: 400px;
+        background: cyan;
+        border-radius: 2px;
+        box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+      }
+      .left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+        padding: 40px;
+        width: 300px;
+        height: 400px;
+        /* background: wheat; */
+      }
+      h1 {
+        margin: 0 0 5px 0;
+        font-weight: 300px;
+        font-size: 28px;
+      }
+      input[type="text"],
+      input[type="password"] {
+        display: block;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border: none;
+        padding: 4px;
+        width: 220px;
+        height: 32px;
+        border-bottom: 1px solid #aaa;
+        font-weight: 400px;
+        font-size: 15px;
+        background-color: black;
+        /* transition: 0.5s ease; */
+      }
+
+      input[type="text"]:focus,
+      input[type="password"]:focus {
+        border-bottom: 2px solid #16a058;
+        color: #a01622;
+      }
+      .right {
+        position: absolute;
+        top: 0;
+        right: 0;
+        box-sizing: border-box;
+        width: 300px;
+        height: 400px;
+        padding: 40px;
+        /* background-size: cover; */
+        /* background-position: center; */
+        border-radius: 0 2px 2px 0;
+      }
+      input[placeholder="username"] {
+        color: yellow;
+      }
+      input[type="submit"] {
+        margin-top: 25px;
+        width: 120px;
+        height: 32px;
+        background: #16a058;
+        border: none;
+        border-radius: 2px;
+        color: rgb(59, 12, 12);
+        text-transform: uppercase;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover input[type="submit"]:focus {
+        opacity: 0.8;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      }
+      input[type="submit"]:active {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+        opacity: 1;
+      }
+      .or {
+        position: absolute;
+        top: 180px;
+        left: 280px;
+        width: 40px;
+        height: 40px;
+        background: #ddd;
+        border-radius: 10%;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+        line-height: 40px;
+        text-align: center;
+        background: mediumseagreen;
+      }
+      .loginwith {
+        display: block;
+        margin-bottom: 40px;
+        font-size: 28px;
+        color: rgb(112, 44, 189);
+        text-align: center;
+      }
+      .google {
+        margin-bottom: 20px;
+        width: 220px;
+        height: 36px;
+        border: none;
+        border-radius: 2px;
+        color: rgb(59, 15, 15);
+        cursor: pointer;
+        /* background: wheat; */
+        font-weight: 500;
+      }
+      .google:hover,
+      .google:focus {
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      }
+      .google:active {
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+      }
+      .gg {
+        background-color: blue;
+      }
+      .instagram {
+        background: rgb(143, 70, 94);
+      }
+      .twitter {
+        background: rgb(9, 131, 179);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="login-box">
+      <div class="left">
+        <h1>sign up</h1>
+        <input type="text" name="username" placeholder="username" />
+        <input type="text" name="email" placeholder="email" />
+        <input type="password" name="password" placeholder="password" />
+        <input type="password" name="password2" placeholder="retype password" />
+        <input type="submit" name="sigup-submit" value="sign me up" />
+      </div>
+      <div class="right">
+        <span class="loginwith">sign in with<br />social network</span>
+        <button class="google gg">login with facebook</button>
+        <button class="google instagram">login with instagram</button>
+        <button class="google twitter">login with twitter</button>
+      </div>
+      <div class="or">OR</div>
+    </div>
+  </body>
+</html>

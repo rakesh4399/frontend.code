@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            color: rgb(red, green, blue);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        table{
+            width: 70%;
+            margin: 0 auto;
+            background-color: palevioletred;
+        
+        }
+        table,th,td{
+             border: 2px double yellowgreen; 
+            border-spacing: 10px;
+            border-radius: 5px;
+        }
+        thead{
+            background-color: aqua;
+            color: green;
+        }
+        th,td{
+            padding: 7px;
+            border-spacing: 5px;
+            
+
+        }
+        tbody{
+            color: blue;
+
+        }
+        .paa{
+            color: brown;
+            background-color: yellow;
+        }
+        .para:hover{
+            background-color: green;
+            color: blue;
+        }
+        .para2:hover{
+            color: goldenrod;
+            background-color: purple;
+        }
+        .para:active{
+            background-color: black;
+            color: red;
+        }
+        .para2:active{
+            color: chartreuse;
+            background-color: darkred;
+        }
+        caption{
+            color: green;
+            text-decoration: underline;
+            font-style: italic;}
+            
+         .pw{
+            text-align: center;
+            font-size: 70px;
+         }
+            
+         td[rowspan="3"]{
+            text-align: center;
+            
+         }
+
+    </style>
+</head>
+<body>
+    <!-- <table align="center" border="1" width="90%" bgcolor="green" cellpadding="10px" cellspacing="5px" > -->
+        <table>
+        <caption><h1>table tag</h1></caption>
+        <thead>
+            <tr>
+                <th>SR.NO</th>
+                <th>LOCATION</th>
+                <th>GENDER</th>
+                <th>NAME</th>
+            </tr></thead>
+            
+       
+        <tbody  >
+
+        <tr class="para">
+            <td>1</td>
+            <td>mumbai</td>
+            <td>M</td>
+            <td>rahul</td>
+        </tr>
+        <tr  class="para2">
+            <td>2</td>
+            <td>mumbai</td>
+            <td>F</td>
+            <td>neha</td>
+            </tr>
+            <tr  class="para">
+                <td>3</td>
+                <td>mumbai</td>
+                <td>F</td>
+                <td>shreya</td>
+                </tr>
+                <tr  class="para2">
+                    <td>4</td>
+                    <td>mumbai</td>
+                    <td rowspan="3">M</td>
+                    <td>ram</td>
+                    </tr>
+                   
+
+                    <tr  class="para">
+                        <td>5</td>
+                         <td>mumbai</td>
+                        <!-- <td>M</td>  -->
+                        <td>mohan</td>
+                        </tr>
+                        <tr  class="para2">
+                            <td>6</td>
+                            <td>mumbai</td>
+                            <!-- <td>M</td> -->
+                            <td>ritesh</td>
+                            </tr>
+                            <tr  class="para">
+                                <td>7</td>
+                                <td>pune</td>
+                                <td>f</td>
+                                <td>sonal</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="pw">total no of students</td>
+                                    <td>6</td>
+                                    </tr>
+                                </tfoot>
+
+    </table>
+</body>
+</html>

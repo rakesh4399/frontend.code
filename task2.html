@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: aqua;
+            box-sizing: border-box;
+            margin: 15px auto;
+            padding: 0;
+            background-color: black;
+
+        }
+        table,th,td{
+            border: 4px solid mediumaquamarine;
+            width: 500px;
+            text-align: center;
+            margin: 0 auto;
+            border-collapse: collapse;
+            color: white;
+            
+            
+        }
+        td[colspan="3"],td[rowspan="3"]{
+            border-width: 0px;
+            background-color: blue;
+        }
+        td{
+            color: maroon;
+         
+         
+        }
+    </style>
+</head>
+<body>
+    <table><thead>
+        <tr>
+            <th colspan="5">periodic table</th>
+        </tr></thead>
+        <tbody>
+        <tr>
+            <td>h</td>
+            <td colspan="3"></td>
+            <td>he</td>
+        </tr>
+        <tr>
+            <td>le</td>
+            <td>be</td>
+            <td rowspan="3"></td>
+            <td>F</td>
+            <td>Ne</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>C</td>
+            
+            <td>Na</td>
+            <td>Mg</td>
+        </tr>
+        <tr>
+            <td>N</td>
+            <td>O</td>
+            
+            <td>K</td>
+            <td>Ca</td>
+        </tr>
+    </table>
+</body>
+</html>

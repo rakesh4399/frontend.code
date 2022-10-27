@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: cyan;
+        }
+        #parent{
+            height: 200px;
+            width: 200px;
+           background-color: yellow;
+           margin: 50px auto;
+
+        }
+        #child{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+              position:top: 150px absolute; ;  
+              
+        }
+        #child2{
+            height: 100px;
+            width: 100px;
+            background-color: brown;
+               position: absolute;   
+             
+        }
+        section#parent{
+            position: relative;
+            margin: 12% auto;
+        }
+    </style>
+</head>
+<body>
+    <section id="parent">
+        <div id="child">
+           child div
+        </div>
+        <div id="child2">
+            child div
+        </div>
+
+    </section>
+</body>
+</html>

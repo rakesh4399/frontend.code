@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* adjacentsibling selector */
+        section + h2{
+            color: yellow;
+        }
+        /* generAL SIBLING SELECTOR */
+        section ~ p{
+            color: pink;
+            background-color: green;
+        }
+        body{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body >
+    <section>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam minima temporibus dolor deserunt, nihil recusandae?</p>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, perferendis?</h2>
+    </section>
+    <h2>Lorem ipsum dolor sit amet.</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, earum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, laudantium.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
