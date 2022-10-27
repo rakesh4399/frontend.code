@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.head{
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(rgb(166, 46, 46),rgb(39, 145, 39),rgb(30, 30, 149));
+   width: 100vh;
+   height: 7vh;
+   opacity: 0.9;
+   box-shadow: 0 0 10px rgb(46, 52, 166);
+}
+.head li{
+    display: inline;
+    background-color: crimson;
+    color: white;
+    padding: 25px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.head li a{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+}
+.head li a:hover{
+    background-color: rgb(rgb(35, 6, 120));
+    color: crimson;
+    border-radius: 10px;
+
+}
+.di1{
+    background-image: url(/spiderNWH.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.di2{
+    background-image: url(/spiderman1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.di3{
+    background-image: url(/Image3.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.di4{
+    background-image: url(/Image2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home,.about,.services{
+    font-size: 50px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+}
+
+.blog1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    height: 20vh;
+    font-size: 50px;
+
+}
+.foot{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
